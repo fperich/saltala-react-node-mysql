@@ -1,0 +1,14 @@
+body {
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.name {
+    color: white;
+    margin-right: 20px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

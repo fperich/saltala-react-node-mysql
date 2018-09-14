@@ -1,0 +1,44 @@
+{
+  "name": "initial-react-ssr-app",
+  "version": "1.0.0",
+  "description": "Initial React App with Server Side Render, ready to use for devs",
+  "keywords": [
+    "react"
+  ],
+  "author": "Fabian Perich Lara",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && node ./public/bundle.js",
+    "build": "webpack -p --config webpack.config.js",
+    "start:d": "webpack-dev-server "
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-mysql-session": "^2.0.1",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "mysql": "^2.16.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^2.4.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "colors": "^1.3.2",
+    "compression-webpack-plugin": "^2.0.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
