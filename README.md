@@ -6,7 +6,7 @@
 4. Run `npm start` to build and start the server.
 5. Go to http://localhost:8080 or https://localhost:8081
 
-This proyect is made in React with SSR, react-router, Node with Express for routing and api, MySql for database, express-session to manage user logged user.
+This proyect is made in React with SSR, react-router, Node with Express for routing and api, MySql for database, express-session to manage user logged user persisted sessions with express-mysql-session to save session information in mysql database as middleware store.
 
 
 The only user added to database is:
