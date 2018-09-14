@@ -12,5 +12,7 @@ This proyect is made in React with SSR, react-router, Node with Express for rout
 The only user added to database is:
 
 name: Administrator
+
 email: admin@admin.cl
+
 pass: 123
